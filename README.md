@@ -46,8 +46,6 @@ Casos manuales sugeridos:
 
 ## Participantes
 
-- Agrega aqui los nombres y matriculas del equipo.
-
-## Evidencias y entrega
-
-Guarda las capturas en `docs/evidencias/practica-02/`. Antes de entregar, agrega en la plataforma la URL de la pull request hacia `develop` y la URL del commit final de la rama `practica-02-dart-estado`.
+- Angel Andrei Leon Aguilar
+- Manuel Daniel Yah Dzul
+- Yoshuan Adrian Cahuich Canul
