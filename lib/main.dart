@@ -174,7 +174,7 @@ class _CalculadoraCombustiblePageState
         if (rendimiento != null) ...[
           const SizedBox(height: 24),
           Card(
-            color: _colorClasificacion(rendimiento).withOpacity(0.12),
+            color: _colorClasificacion(rendimiento).withValues(alpha: 0.12),
             child: Padding(
               padding: const EdgeInsets.all(20),
               child: Column(
@@ -220,7 +220,7 @@ class _PropinaPageState extends State<PropinaPage> {
   void _calcular() {
     final consumo =
         double.tryParse(_consumoController.text.trim().replaceAll(',', '.')) ??
-        0;
+            0;
     setState(() {
       _propina = consumo * _porcentaje / 100;
       _total = consumo + _propina;
